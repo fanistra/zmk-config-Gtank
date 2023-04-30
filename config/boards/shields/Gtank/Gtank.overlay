@@ -59,10 +59,12 @@ default_transform: keymap_transform_0 {
         resolution = <4>;
         status = "disabled";
     };
-    
-    &encoder_1 {
-    status = "okay";
+
+   
 };
+
+ /&encoder_1 {
+    status = "okay";
     
 
     
