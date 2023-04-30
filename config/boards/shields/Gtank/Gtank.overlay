@@ -66,9 +66,7 @@ default_transform: keymap_transform_0 {
         >;
     };
 
- &encoder_1 {
-    status = "okay";
-    };
+
 
     
 
