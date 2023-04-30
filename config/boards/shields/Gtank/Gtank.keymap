@@ -6,9 +6,7 @@
  
 
 / {
-    &encoder_1 {
-    status = "okay"; 
-    };
+   
 
  macros {
         uacc: uacc {
