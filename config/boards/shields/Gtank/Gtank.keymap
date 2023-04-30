@@ -7,6 +7,7 @@
 
 / {
    
+   
 
  macros {
         uacc: uacc {
@@ -30,10 +31,7 @@
         };
     };
 
-sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&encoder_1> ;
-    };
+
 
 
 
