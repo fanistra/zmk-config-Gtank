@@ -4,9 +4,7 @@
 
 
 
-&encoder_1 {
-    status = "okay";
-};
+
 
  
 

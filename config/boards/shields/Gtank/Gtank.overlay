@@ -60,6 +60,10 @@ default_transform: keymap_transform_0 {
         status = "disabled";
     };
     
+    &encoder_1 {
+    status = "okay";
+};
+    
 
     
 };
