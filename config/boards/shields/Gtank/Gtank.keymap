@@ -7,8 +7,7 @@
 
 / {
 
-  &encoder_1 {
-    status = "okay"; };
+
 
 
     macros {
@@ -52,7 +51,7 @@ sensors {
             &kp KP_DOT    &kp LSHIFT    &kp Z      &kp X      &kp C      &kp V     &kp B     &kp N      &kp M      &kp COMMA &kp DOT     &kp MINUS    &kp RSHIFT   &kp UP      
             &lt 1 LT        &kp LCTRL     &lt 2 RGUI &kp LALT   &kp SPACE  &kp RALT  &kp RGUI  &kp LCTRL  &kp LEFT   &kp DOWN  &kp RIGHT   
             >;
-                    
+              sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;      
             };
 
         bt_layer {
@@ -64,7 +63,7 @@ sensors {
             &kp KP_DOT &kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B      &kp N      &kp M     &kp COMMA   &kp DOT      &kp MINUS    &kp RSHIFT   &kp UP      
             &lt 1 LT   &kp LCTRL     &lt 2 RGUI   &kp LALT   &kp SPACE  &kp RALT  &kp RGUI  &kp LCTRL  &kp LEFT   &kp DOWN  &kp RIGHT
             >;
-                    
+              sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;      
 
             };
 
@@ -78,9 +77,11 @@ sensors {
             &kp KP_DOT &kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B      &kp N      &kp M     &kp COMMA   &kp DOT      &kp MINUS    &kp RSHIFT   &kp UP      
             &lt 1 LT   &kp LCTRL    &lt 2 RGUI    &kp LALT   &kp SPACE  &kp RALT  &kp RGUI &kp LCTRL  &kp LEFT   &kp DOWN  &kp RIGHT   
             >;
-                   
+             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;      
 
             };
+              &encoder_1 {
+    status = "okay"; };
             
          };
 };
