@@ -70,7 +70,8 @@
             &lt 1 LT   &kp LCTRL     &lt 2 RGUI   &kp LALT   &kp SPACE  &kp RALT  &kp RGUI  &kp LCTRL  &kp LEFT   &kp DOWN  &kp RIGHT
 
             >;
-              sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;      
+              sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;     
+               
 
             };
 
