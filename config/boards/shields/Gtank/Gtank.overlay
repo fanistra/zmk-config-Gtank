@@ -1,8 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #define encoder_1
 
-/
-&encoder_1 {
+encoder_1 {
     status = "okay";
 };
 
