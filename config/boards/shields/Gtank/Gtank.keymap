@@ -80,8 +80,7 @@ sensors {
              sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;      
 
             };
-              &encoder_1 {
-    status = "okay"; };
+              
             
          };
 };
