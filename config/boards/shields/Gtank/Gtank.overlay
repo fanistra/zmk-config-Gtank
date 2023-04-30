@@ -9,10 +9,9 @@
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
     };
+
     
-    &encoder_1 {
-    status = "okay";
-};
+
 
       
      default_kscan: kscan {
