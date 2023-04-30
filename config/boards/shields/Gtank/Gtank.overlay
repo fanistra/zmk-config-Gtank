@@ -65,9 +65,8 @@ default_transform: keymap_transform_0 {
         sensors = <&left_encoder>;
     };
 
-    &left_encoder {
-    status = "okay";
+    
 };
     
     };
-};
+
