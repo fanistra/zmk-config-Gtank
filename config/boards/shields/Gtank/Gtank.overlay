@@ -1,4 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "Gtank.dtsi"
+
+&left_encoder {
+    status = "okay";
+};
+
 
 
 / {
@@ -49,8 +55,6 @@ default_transform: keymap_transform_0 {
     RC(8,0) RC(9,1) RC(8,1) RC(9,2) RC(8,2) RC(9,5) RC(8,5) RC(9,6) RC(8,7) RC(7,7) RC(9,7)
         >;
     };
-    &left_encoder {
-       status = "okay";
-};
+    
     };
 };
