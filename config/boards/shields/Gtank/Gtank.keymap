@@ -16,7 +16,8 @@
                 ;
         };
         };
-     macros {
+
+    macros {
         1708: 1708 {
             label = "1708";
             compatible = "zmk,behavior-macro";
