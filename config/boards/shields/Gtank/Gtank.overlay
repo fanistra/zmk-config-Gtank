@@ -1,8 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&encoder_1 {
-    status = "okay";
-};
+
 
 
 
@@ -11,6 +9,10 @@
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
     };
+    
+    &encoder_1 {
+    status = "okay";
+};
 
       
      default_kscan: kscan {
@@ -42,7 +44,7 @@
             , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-    
+
      encoder_1: encoder_1 {
         compatible = "alps,ec11";
         label = "Encoder 1";
