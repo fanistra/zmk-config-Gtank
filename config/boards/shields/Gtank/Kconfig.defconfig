@@ -1,6 +1,8 @@
-if SHIELD_MY_BOARD
+if SHIELD_GTANK
 
 config ZMK_KEYBOARD_NAME
     default "Gtank"
+
+CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
 
 endif
