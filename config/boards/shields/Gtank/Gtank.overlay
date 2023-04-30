@@ -1,10 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-
-
-
-
-
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -41,6 +36,7 @@
             , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
+    };
 default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <8>;
@@ -53,6 +49,7 @@ default_transform: keymap_transform_0 {
     RC(8,0) RC(9,1) RC(8,1) RC(9,2) RC(8,2) RC(9,5) RC(8,5) RC(9,6) RC(8,7) RC(7,7) RC(9,7)
         >;
     };
+
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         label = "LEFT_ENCODER";
@@ -68,5 +65,5 @@ default_transform: keymap_transform_0 {
     
 };
     
-    };
+   
 
