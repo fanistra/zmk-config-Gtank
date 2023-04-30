@@ -3,8 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 #define FN 2
 
-
-
 / {
     macros {
         uacc: uacc {
