@@ -42,13 +42,13 @@
             label = "default layer";
             bindings = < 
 
-            &kp C_MUTE    &kp ESC       &kp N1     &kp N2     &kp N3     &kp N4    &kp N5    &kp N6     &kp N7     &kp N8    &kp N9      &kp N0       &kp MINUS    &kp EQUAL    &kp BSPC   
+            &kp C_MUTE    &kp ESC       &kp N1     &kp N2     &kp N3     &kp N4    &kp N5    &kp N6     &kp N7     &kp N8    &kp N9      &kp N0       &kp MINUS    &kp PLUS    &kp BSPC   
 
             &pass         &kp TAB       &kp Q      &kp W      &kp E      &kp R     &kp T     &kp Y      &kp U      &kp I     &kp O       &kp P        &kp LBKT     &kp RBKT     &uacc     
 
             &kp DEL      &kp CAPS     &kp A      &kp S      &kp D      &kp F     &kp G     &kp H      &kp J      &kp K     &kp L       &kp SEMI     &kp SQT      &kp ENTER    
 
-            &kp KP_DOT   &kp LSHIFT    &kp Z      &kp X      &kp C      &kp V     &kp B     &kp N      &kp M      &kp COMMA &kp DOT     &kp MINUS    &kp RSHIFT   &kp UP      
+            &kp KP_DOT   &kp LSHIFT    &kp Z      &kp X      &kp C      &kp V     &kp B     &kp N      &kp M      &kp COMMA &kp DOT     &kp SLASH   &kp RSHIFT   &kp UP      
 
             &lt 1 LT        &kp LCTRL     &lt 2 RGUI &kp LALT   &kp SPACE  &kp RALT  &kp RGUI  &kp LCTRL  &kp LEFT   &kp DOWN  &kp RIGHT   
 
@@ -59,13 +59,13 @@
         bt_layer {
             label = "bt_layer";
             bindings = <
-            &kp C_MUTE &bootloader   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &kp N4    &kp N5    &kp N6     &kp N7     &kp N8    &kp N9      &kp N0       &kp MINUS    &kp EQUAL    &bt BT_CLR 
+            &kp C_MUTE &bootloader   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &kp N4    &kp N5    &kp N6     &kp N7     &kp N8    &kp N9      &kp N0       &kp MINUS    &kp PLUS     &bt BT_CLR 
 
             &pass    &kp TAB       &kp Q      &kp W      &kp E      &kp R     &kp T     &kp Y      &kp U      &kp I     &kp O       &kp P        &kp LBKT     &kp RBKT     &uacc   
 
             &kp DEL &kp CAPS      &kp A      &kp S      &kp D      &kp F     &kp G     &kp H      &kp J      &kp K     &kp L       &kp SEMI     &kp SQT      &kp ENTER    
 
-            &kp KP_DOT &kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B      &kp N      &kp M     &kp COMMA   &kp DOT      &kp MINUS    &kp RSHIFT   &kp UP      
+            &kp KP_DOT &kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B      &kp N      &kp M     &kp COMMA   &kp DOT      &kp SLASH    &kp RSHIFT   &kp UP      
 
             &lt 1 LT   &kp LCTRL     &lt 2 RGUI   &kp LALT   &kp SPACE  &kp RALT  &kp RGUI  &kp LCTRL  &kp LEFT   &kp DOWN  &kp RIGHT
 
@@ -85,7 +85,7 @@
 
             &kp DEL  &kp CAPS      &kp A      &kp S      &kp D      &kp F     &kp G     &kp H      &kp J      &kp K     &kp L       &kp SEMI     &kp SQT      &kp ENTER    
 
-            &kp KP_DOT &kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B      &kp N      &kp M     &kp COMMA   &kp DOT      &kp MINUS    &kp RSHIFT   &kp UP      
+            &kp KP_DOT &kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B      &kp N      &kp M     &kp COMMA   &kp DOT      &kp SLASH    &kp RSHIFT   &kp UP      
 
             &lt 1 LT   &kp LCTRL    &lt 2 RGUI    &kp LALT   &kp SPACE  &kp RALT  &kp RGUI &kp LCTRL  &kp LEFT   &kp DOWN  &kp RIGHT   
 
